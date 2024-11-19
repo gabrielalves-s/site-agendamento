@@ -155,20 +155,16 @@ footer {
     opacity: 0.7;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 
     header {
         background-color: black;
         width: 100%;
         color: white;
         height: auto;
-
-    }
-
-    .nav-bar {
         display: block;
-    }
 
+    }
     .hero {
         display: none;
     }
