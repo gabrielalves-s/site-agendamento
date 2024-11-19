@@ -147,13 +147,17 @@ footer {
     width: 100%;
     color: white;
     height: auto;
-    display: flexbox;
+    display: block;
 
   }
 
  .nav-item {
   display: none;
  }
+
+ .nav-bar {
+  justify-content: center;
+}
 
  .hero {
   display: none;
