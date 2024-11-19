@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+* {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.396);
+    position: fixed;
+    width: 100%;
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: end;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: white;
+    font-weight: 400px;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.text-1 {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    font-size: 14pt;
+}
+
+.text-2 {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    font-size: 14pt;
+}
+
+.foto-logo {
+    height: 150px;
+}
+
+.form-box {
+    margin: 40px 100px;
+    padding:20px 30px 20px 30px;
+    border-radius: 1px;
+    overflow: hidden;
+    background-color: rgba(128, 128, 128, 0.392);
+}
+
+button {
+    float: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover,
+button:focus {
+    outline: none;
+    background: rgb(44, 42, 42);
+}
+
+button: disabled {
+    cursor: not-allowed;
+    background: blue; 
+}
+
+
+footer {
+    display: flexbox;
+    align-items: center; 
+    padding: 8px;
+    background-color:black;
+    color: #fff;
+    place-items: center;
+    
+}
+.img-footer {
+
+    margin-right: 30px;
+    width: 150px;
+    height: 150px; 
+
+}
+
+.insta-collab {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1000px) {
+
+    .container-img {
+        display: block;
+        background-image: none;
+        width: 100%;
+        height: 200px;
+    }
+
+    .text-1, .text-2 {
+        padding-left: 2px;
+        padding-right: 2px;
+        
+    }
+    .form-box {
+        margin: 5px 5px;
+        padding: 2px 3px 2px 3px;
+}
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+}
+
+
+
+
+
