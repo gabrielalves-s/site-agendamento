@@ -17,11 +17,13 @@ html, body {
 
 
 header {
-    background-color: rgba(0, 0, 0, 0.388);
+    background-color: rgba(0, 0, 0, 0.323);
     width: 100%;
     color: white;
     height: auto;
     position: fixed; 
+    top: 0;
+    left: 0;
 }
 
 .nav-bar {
@@ -65,7 +67,11 @@ header {
 
 .hero img {
     width: 100%;
-    height: auto;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    
+
 }
 
 .mobile-menu-icon {
@@ -156,7 +162,8 @@ footer {
     opacity: 0.7;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
+
 
     header {
         background-color: black;
@@ -166,33 +173,6 @@ footer {
         display: block;
 
     }
-
-    .nav-bar {
-        margin: 0;
-        border: 0;
-        padding: 0;
-    }
-    
-    .hero {
-        display: none;
-    }
-
-    .text-1 {
-        padding-left: 2px;
-        padding-right: 2px;
-        padding-top: 50%;
-    } 
-
-    .text-2 {
-        padding-left: 2px;
-        padding-right: 2px;
-        }
-        
-    .form-box {
-        margin: 5px 5px;
-        padding: 2px 3px 2px 3px;
-}
-
 
     .nav-item {
         display: none;
@@ -224,6 +204,37 @@ footer {
         display: block;
     }
 
+    .hero {
+        display: none;
+    }
+
+    .text-1 {
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 50%;
+    } 
+
+    .text-2 {
+        padding-left: 2px;
+        padding-right: 2px;
+        }
+        
+    .form-box {
+        margin: 5px 5px;
+        padding: 2px 3px 2px 3px;
+    }
+
+    .footer-info {
+        font-size: 13px;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .footer-logo img {
+        height: 80px;
+        width: auto;
+
+    }
 }
 
 
