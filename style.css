@@ -28,7 +28,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
-    
 
 }
 
@@ -164,6 +163,12 @@ footer {
         color: white;
         height: auto;
         position: fixed; 
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: center;
+    
     }
 
     .container-img {
