@@ -70,8 +70,6 @@ header {
     height: 400px;
     background-size: cover;
     background-position: center;
-    
-
 }
 
 .mobile-menu-icon {
@@ -178,6 +176,14 @@ footer {
         display: none;
     }
 
+    .hero {
+        display: none;
+    }
+
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
     .mobile-menu-icon {
         display: block;
     }
@@ -204,9 +210,7 @@ footer {
         display: block;
     }
 
-    .hero {
-        display: none;
-    }
+
 
     .text-1 {
         padding-left: 2px;
