@@ -17,14 +17,14 @@ html, body {
 
 
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.323);
     width: 100%;
     color: white;
     height: auto;
     position: fixed; 
     top: 0;
     left: 0;
-}
+  }
 
 .nav-bar {
     display: flex;
@@ -70,7 +70,7 @@ header {
     height: 400px;
     background-size: cover;
     background-position: center;
-    margin-top: 100px;
+    
 
 }
 
@@ -216,7 +216,7 @@ footer {
     .text-1 {
         padding-left: 2px;
         padding-right: 2px;
-        padding-top: 50%;
+        padding-top: 35%;
     } 
 
     .text-2 {
