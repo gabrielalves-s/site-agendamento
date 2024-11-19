@@ -17,7 +17,7 @@ html, body {
 
 
 header {
-    background-color: rgba(0, 0, 0, 0.323);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     color: white;
     height: auto;
@@ -70,6 +70,8 @@ header {
     height: 400px;
     background-size: cover;
     background-position: center;
+    margin-top: 100px;
+
 }
 
 .mobile-menu-icon {
@@ -168,19 +170,14 @@ footer {
         width: 100%;
         color: white;
         height: auto;
-        display: block;
-
+        display: flexbox;
+        
     }
 
     .nav-item {
         display: none;
+        
     }
-
-    .hero {
-        display: none;
-    }
-
-
 
     .mobile-menu-icon {
         display: block;
@@ -208,7 +205,9 @@ footer {
         display: block;
     }
 
-
+    .hero {
+        display: none;
+    }
 
     .text-1 {
         padding-left: 2px;

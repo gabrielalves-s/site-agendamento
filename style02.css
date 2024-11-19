@@ -147,7 +147,7 @@ footer {
     width: 100%;
     color: white;
     height: auto;
-    display: block;
+    display: flexbox;
 
   }
 
@@ -158,7 +158,6 @@ footer {
  .hero {
   display: none;
 }
-
 
 .nav-item {
     display: none;
