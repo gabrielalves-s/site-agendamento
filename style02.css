@@ -159,9 +159,6 @@ footer {
   display: none;
 }
 
-  .nav-bar {
-    padding: 1.5rem 4rem;
-}
 
 .nav-item {
     display: none;
@@ -212,6 +209,7 @@ footer {
   text-align: justify;
   margin-top: 50px;
 }
+
 
 #celo {
   margin-top: 200px;
