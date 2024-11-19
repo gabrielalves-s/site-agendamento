@@ -166,6 +166,13 @@ footer {
         display: block;
 
     }
+
+    .nav-bar {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+    
     .hero {
         display: none;
     }
