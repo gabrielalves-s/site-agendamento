@@ -230,8 +230,12 @@ footer {
   padding-bottom: 40px;
 }
 
-span {
-  padding-left: 20%;
+#fundador {
+  padding-left: 23%;
+}
+
+#residente {
+  padding-left: 40%;
 }
 
 h1 {
