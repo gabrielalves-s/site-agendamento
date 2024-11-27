@@ -230,5 +230,21 @@ footer {
   padding-bottom: 40px;
 }
 
+span {
+  padding-left: 30%;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  padding-left: 10%;
+}
+
+#instagram {
+  padding-left: 40%;
+}
 }
 
